@@ -18,6 +18,10 @@ class FrenchChild extends Parent{
     public void greet() {
         System.out.println("Bonjourrr Ca va Bien ?");
     }
+    public void Sum(int num1, int num2){
+        int total = num1 + num2;
+        System.out.println(total);
+    }
 }
 
 public class AbstractClassandMethod {
@@ -27,6 +31,8 @@ public class AbstractClassandMethod {
 
         FrenchChild fc = new FrenchChild();
         fc.greet();
+
+        fc.Sum(20,20);
 
     }
 }
